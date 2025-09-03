@@ -1,0 +1,6 @@
+{
+  "name": "ffww-snapshot",
+  "private": true,
+  "type": "module",
+  "scripts": { "snapshot": "node scripts/snapshot.js" }
+}
