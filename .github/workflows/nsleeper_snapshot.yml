@@ -1,0 +1,51 @@
+name: Sleeper Snapshot
+
+on:
+  schedule:
+    - cron: "0 * * * *"    # hourly
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # If you don't have a package-lock, npm ci will fail; that's fine.
+      - run: npm ci || true
+
+      - name: Run snapshot
+        run: npm run snapshot
+        env:
+          NODE_OPTIONS: --trace-warnings
+
+      - name: Show output (for debugging)
+        run: |
+          echo "---- ffww_snapshot.json ----"
+          cat public/ffww_snapshot.json || true
+
+      - name: Upload artifact (optional, helps debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ffww_snapshot
+          path: public/ffww_snapshot.json
+          if-no-files-found: warn
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add public/ffww_snapshot.json
+            git commit -m "Update snapshot [skip ci]"
+            git push
+          else
+            echo "No changes to commit."
+          fi
