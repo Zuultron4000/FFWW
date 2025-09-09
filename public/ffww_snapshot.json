@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-09-09T04:29:52.227Z",
+  "updated_at": "2025-09-09T05:18:06.099Z",
   "leagues": [
     {
       "league_name": "Abusement Park",
@@ -113,6 +113,7 @@
           "playoff_type": 1,
           "taxi_slots": 3,
           "sub_start_time_eligibility": 0,
+          "last_scored_leg": 1,
           "daily_waivers_days": 2816,
           "sub_lock_if_starter_active": 0,
           "playoff_week_start": 15,
@@ -535,6 +536,7 @@
           "playoff_type": 1,
           "taxi_slots": 0,
           "sub_start_time_eligibility": 0,
+          "last_scored_leg": 1,
           "daily_waivers_days": 1093,
           "sub_lock_if_starter_active": 0,
           "playoff_week_start": 15,
@@ -835,6 +837,7 @@
           "playoff_type": 1,
           "taxi_slots": 3,
           "sub_start_time_eligibility": 0,
+          "last_scored_leg": 1,
           "daily_waivers_days": 1792,
           "sub_lock_if_starter_active": 0,
           "playoff_week_start": 15,
