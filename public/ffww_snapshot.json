@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-09-11T01:56:50.404Z",
+  "updated_at": "2025-09-11T02:59:37.832Z",
   "leagues": [
     {
       "league_name": "Abusement Park",
@@ -103,7 +103,7 @@
           "capacity_override": 0,
           "waiver_bid_min": 0,
           "taxi_deadline": 0,
-          "draft_rounds": 10,
+          "draft_rounds": 5,
           "reserve_allow_na": 1,
           "start_week": 1,
           "playoff_seed_type": 1,
