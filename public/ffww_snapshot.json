@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-10-30T23:23:29.040Z",
+  "updated_at": "2025-10-31T01:27:51.512Z",
   "leagues": [
     {
       "league_name": "Abusement Park",
@@ -1277,7 +1277,6 @@
       "num_teams": 12,
       "rostered_player_ids": [
         "11559",
-        "1166",
         "12455",
         "12483",
         "12485",
