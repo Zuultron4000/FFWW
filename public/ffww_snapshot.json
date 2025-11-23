@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-11-23T14:22:55.538Z",
+  "updated_at": "2025-11-23T15:17:54.218Z",
   "leagues": [
     {
       "league_name": "Abusement Park",
@@ -410,6 +410,7 @@
         "5857",
         "5872",
         "5967",
+        "5970",
         "6801",
         "7600",
         "8122",
@@ -887,7 +888,7 @@
           "leg": 12,
           "reserve_slots": 2,
           "reserve_allow_cov": 1,
-          "daily_waivers_last_ran": 22
+          "daily_waivers_last_ran": 23
         },
         "draft_settings": {}
       },
