@@ -1,5 +1,5 @@
 {
-  "updated_at": "2025-12-09T16:36:28.876Z",
+  "updated_at": "2025-12-09T17:20:34.898Z",
   "leagues": [
     {
       "league_name": "Abusement Park",
@@ -526,7 +526,7 @@
         ],
         "settings": {
           "best_ball": 0,
-          "last_report": 13,
+          "last_report": 14,
           "waiver_budget": 111,
           "disable_adds": 0,
           "divisions": 2,
@@ -833,7 +833,7 @@
         ],
         "settings": {
           "best_ball": 0,
-          "last_report": 13,
+          "last_report": 14,
           "waiver_budget": 100,
           "disable_adds": 0,
           "divisions": 2,
